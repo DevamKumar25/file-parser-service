@@ -55,10 +55,10 @@ A robust backend application that supports uploading, storing, parsing, and retr
    Create a `.env` file in the root directory:
    ```env
    # MongoDB Configuration
-   MONGO_URI=mongodb+srv://devamkumar78:zCNHEKqn3eYcDPya@cluster0.ucwqqa4.mongodb.net/FileParser?retryWrites=true&w=majority&appName=Cluster0
+   MONGO_URI=your uri
    
    # JWT Configuration
-   JWT_SECRET_KEY=a2c6e41893f3d8b94f3c8e22b75a63d91b1e8c4d99557f348b9f7388b73e5e85c8dc40f04cc9d5476e44e0a06cfb2156
+   JWT_SECRET_KEY= generate random 32 letter secret key
    
    # Server Configuration
    PORT=5000
@@ -367,3 +367,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - JWT.io for authentication standards
 - File parsing library contributors
 - Open source community
+
